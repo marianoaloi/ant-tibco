@@ -14,7 +14,7 @@
 
     <target name="compile" description="Compiles the project">
         <mkdir dir="${classes.dir}"/>
-        <javac srcdir="${src.dir}" destdir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" classpath="lib/ant.jar"/>
 
     </target>
 
