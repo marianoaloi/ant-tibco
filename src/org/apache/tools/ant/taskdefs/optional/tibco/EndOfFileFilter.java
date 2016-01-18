@@ -6,7 +6,7 @@ import java.io.FilenameFilter;
 /**
  * EndOfFileFilter is a generic FilenameFilter to allow file with a specific file extension.
  * 
- * @author Cédric Rochet
+ * @author Cdric Rochet
  *
  */
 public class EndOfFileFilter implements FilenameFilter {

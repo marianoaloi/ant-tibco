@@ -6,7 +6,7 @@ import java.io.File;
 /**
  * TibbwDeploy is an ant task for deploying BusinessWorks applications to a tibco domain. 
  * 
- * @author Cédric Rochet
+ * @author Cdric Rochet
  *
  */
 public class TibbwDeploy extends AbstractTibbwServerTask {

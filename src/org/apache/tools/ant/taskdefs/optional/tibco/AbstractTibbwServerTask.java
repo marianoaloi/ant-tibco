@@ -6,7 +6,7 @@ import org.apache.tools.ant.BuildException;
  * Abstract class for tibco ant tasks which requires to connect to a tibco
  * domain.
  * 
- * @author Cédric Rochet
+ * @author Cdric Rochet
  *  
  */
 public abstract class AbstractTibbwServerTask extends AbstractTibbwTask {

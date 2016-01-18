@@ -8,7 +8,7 @@ import org.apache.tools.ant.types.selectors.FileSelector;
 /**
  * SuffixFileSelector is a generic FileSelector to allow files with a specific file extension.
  * 
- * @author Cédric Rochet
+ * @author Cdric Rochet
  *
  */
 public class SuffixFileSelector implements FileSelector {

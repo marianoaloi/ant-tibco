@@ -13,7 +13,7 @@ import org.apache.tools.ant.types.Commandline;
 /**
  * Abstract class for all tibco ant tasks.
  *
- * @author Cédric Rochet
+ * @author Cdric Rochet
  *
  */
 public abstract class AbstractTibbwTask extends MatchingTask {

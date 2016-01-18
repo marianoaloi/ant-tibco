@@ -8,7 +8,7 @@ import java.io.File;
  * 
  * limitation : the name of the application should be the same as name of the application.
  * 
- * @author Cédric Rochet
+ * @author Cdric Rochet
  */
 public class TibbwDelete extends AbstractTibbwServerTask {
 
