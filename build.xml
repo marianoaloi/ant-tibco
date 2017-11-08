@@ -20,6 +20,7 @@
 
     <target name="jar" description="Create the ant-tibco jar file" depends="clean,compile">
         <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}"/>
+    	<copy file="${jar.dir}/${ant.project.name}.jar" todir="F:\maria\vsts-agent-win7-x64-2.123.0\TIBCO_work\1\s\lib"/>
     </target>
     
     

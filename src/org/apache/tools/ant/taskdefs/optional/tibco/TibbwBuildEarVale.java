@@ -120,8 +120,8 @@ public class TibbwBuildEarVale extends AbstractTibbwTask {
         String earPath = this.destdir + File.separator
             + integratrionName + ".ear";
 
-        String command = this.bindir.getPath() + File.separator + "buildear -s -ear \"" + this.archiveProjectPath + "\" -o " + earPath
-            + " -p " + projectDir.getPath() + " -x ";
+        String command = this.bindir.getPath() + File.separator + "buildear -s -ear \"" + this.archiveProjectPath + "\" -o \"" + earPath
+            + "\" -p \"" + projectDir.getPath() + "\" --propFile \""+this.bindir.getPath() + File.separator + "buildear.tra\" -x -s logFile=\"" + projectDir.getPath() + "\\myLogFile.txt\"";
 
         
         try{

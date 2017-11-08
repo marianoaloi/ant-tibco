@@ -57,8 +57,8 @@ public class TibbwExportConfig extends AbstractTibbwTask {
         String fileNameNoExtension = this.subStringBeforeFirst(currentFile.getName(), ".");
 
         String command = this.bindir.getPath() + File.separator + "AppManage -export "
-			+ "-ear " + currentFile 
-			+ " -out " + this.getDestdir() + File.separator + fileNameNoExtension + ".xml"
+			+ "-ear \"" + currentFile +"\""
+			+ " -out \"" + this.getDestdir() + File.separator + fileNameNoExtension + ".xml\""
 			+ " -max ";
 
         return command;
